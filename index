@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>COG — Your Personal AI for Smarter Work</title>
+  <link rel="stylesheet" href="styleboss.css" />
+</head>
+<body>
+  <!-- STICKY NAV -->
+  <header class="nav">
+    <div class="nav-left">
+      <a class="logo-link" href="#features" title="Go to Features">
+        <div class="logo-wrap" aria-hidden="true">
+          <img src="logo,png.png" alt="COG logo" />
+        </div>
+        <span class="site-name">COG</span>
+      </a>
+    </div>
+
+    <nav class="nav-right">
+      <a href="#home" class="nav-item">Home</a>
+      <a href="#features" class="nav-item">Features</a>
+      <a href="#howto" class="nav-item">How-To</a>
+      <a href="#pricing" class="nav-item">Pricing</a>
+      <a href="#login" class="nav-cta">Login</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-inner">
+      <div class="hero-text">
+        <h1>COG — Your Personal AI for Smarter Work</h1>
+        <p class="lead">Meet your accessible guru of discipline — an empathetic planner that learns you, gently nudges you, and helps you focus. Type, speak, or demo it — watch chaos turn into clarity.</p>
+
+        <div class="hero-buttons">
+          <a href="#demo" class="btn primary">Try Demo — no signup</a>
+          <a href="#features" class="btn ghost">Explore Features</a>
+        </div>
+
+        <ul class="hero-bullets">
+          <li>🧠 Natural language task creation</li>
+          <li>🎤 Voice commands & intelligent reminders</li>
+          <li>⏱ Guided Pomodoro focus mode</li>
+        </ul>
+      </div>
+
+      <div class="hero-mock">
+        <div class="mock-card">
+          <div class="mock-left">
+            <div class="feature-circles">
+              <div class="icon-circle">✅</div>
+              <div class="icon-circle">📅</div>
+              <div class="icon-circle">⏱</div>
+              <div class="icon-circle">🎤</div>
+              <div class="icon-circle">💬</div>
+            </div>
+          </div>
+
+          <div class="mock-center">
+            <div class="task-box">
+              <div class="task-top">
+                <div class="task-title">Task • Study for AI project</div>
+                <div class="task-actions">
+                  <span class="tag">Work</span>
+                  <span class="date">Due: Tomorrow</span>
+                </div>
+              </div>
+              <div class="task-body">
+                <p>Plan architecture, prepare slides, practice demo. Why did you postpone it last time? (Optional)</p>
+              </div>
+              <div class="task-bottom">
+                <button class="small">Mark done</button>
+                <button class="small ghost">Reschedule</button>
+                <div class="calendar-toggle">📅</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="mock-right">
+            <div class="pomodoro-circle">
+              <div class="pom-number">25</div>
+              <div class="pom-label">min</div>
+            </div>
+
+            <div class="chat-box locked">
+              <div class="chat-header">AI Chatbox</div>
+              <div class="chat-body">
+                <div class="locked-overlay">🔒 Log in to unlock AI chat</div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <p class="mock-note">Demo mode: temporary, no data saved. Log in to enable reminders and syncing.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- DEMO -->
+  <section id="demo" class="section demo">
+    <div class="container">
+      <h2>Interactive Demo</h2>
+      <p class="muted">Slide through the mock UI — try the tasks, see the Pomodoro, and feel the gentle guidance of COG.</p>
+
+      <div class="demo-grid">
+        <div class="demo-card">
+          <h3>Task Manager</h3>
+          <p>Quickly create tasks with natural language: <span class="inline-code">“Schedule team call tomorrow 3pm”</span>.</p>
+        </div>
+
+        <div class="demo-card">
+          <h3>Pomodoro & Focus</h3>
+          <p>Start guided Pomodoro sessions. The dashboard visualizes your focused minutes for the day.</p>
+        </div>
+
+        <div class="demo-card">
+          <h3>Discipline Guru</h3>
+          <p>If you miss a task, COG asks why — it learns your patterns and adapts, not shames.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section id="features" class="section features">
+    <div class="container">
+      <h2>Features</h2>
+      <p class="muted">Everything designed to be calm, helpful, and actionable — stick to the essentials and scale up when you're ready.</p>
+
+      <div class="features-grid">
+        <div class="feature">
+          <div class="f-emoji">✅</div>
+          <h4>Smart Task Tracking</h4>
+          <p>Natural language input, quick edits, tags, and reschedule prompts.</p>
+        </div>
+        <div class="feature">
+          <div class="f-emoji">🎤</div>
+          <h4>Voice Commands</h4>
+          <p>Hands-free task creation and quick queries.</p>
+        </div>
+        <div class="feature">
+          <div class="f-emoji">🔔</div>
+          <h4>Intelligent Reminders</h4>
+          <p>Contextual nudges that learn your rhythm and avoid noise.</p>
+        </div>
+        <div class="feature">
+          <div class="f-emoji">⏱</div>
+          <h4>Focus Mode</h4>
+          <p>Guided Pomodoro sessions with gentle prompts to return to flow.</p>
+        </div>
+        <div class="feature">
+          <div class="f-emoji">🧘</div>
+          <h4>Discipline Coach</h4>
+          <p>Empathetic follow-ups: reasons for delays, not guilt.</p>
+        </div>
+        <div class="feature">
+          <div class="f-emoji">🔄</div>
+          <h4>Calendar Sync (Planned)</h4>
+          <p>Auto-sync to Google Calendar for scheduled tasks and reminders.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW-TO -->
+  <section id="howto" class="section howto">
+    <div class="container">
+      <h2>How-To / Quick Guide</h2>
+      <ol class="how-list">
+        <li>Type or speak tasks in natural language.</li>
+        <li>Use the Pomodoro circle to start a focus session.</li>
+        <li>If you postpone a task, optionally tell COG why—COG learns.</li>
+        <li>Log in to unlock reminders, email notifications, and calendar sync.</li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section id="pricing" class="section pricing">
+    <div class="container">
+      <h2>Pricing</h2>
+      <p class="muted">Pricing here is a placeholder for the prototype. Task features are free; AI chat and full sync can be a Pro tier.</p>
+
+      <div class="pricing-grid">
+        <div class="price-card free">
+          <h3>Free</h3>
+          <p class="price">₹0 / month</p>
+          <ul>
+            <li>Task Manager</li>
+            <li>Pomodoro Timer</li>
+            <li>Local Demo Mode</li>
+            <li>Intelligent Reminders (basic)</li>
+          </ul>
+          <button class="btn primary">Get Free</button>
+        </div>
+
+        <div class="price-card pro">
+          <h3>Pro</h3>
+          <p class="price">$9.99 / month</p>
+          <ul>
+            <li>Everything in Free</li>
+            <li>AI Chat & Advice</li>
+            <li>Calendar Sync</li>
+            <li>Advanced Insights & Graphs</li>
+          </ul>
+          <button class="btn ghost">Contact Sales</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LOGIN -->
+  <section id="login" class="section login">
+    <div class="container login-grid">
+      <div class="login-card">
+        <h2>Log in to COG</h2>
+        <p class="muted">Sign in to receive reminders, sync calendars, and unlock the AI chat.</p>
+
+        <form class="login-form" onsubmit="return false;">
+          <label>
+            Email
+            <input type="email" placeholder="you@example.com" />
+          </label>
+          <label>
+            Password
+            <input type="password" placeholder="••••••••" />
+          </label>
+
+          <div class="form-actions">
+            <button class="btn primary">Sign in</button>
+            <button class="btn ghost">Try Demo</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="login-side">
+        <h3>Why sign in?</h3>
+        <ul>
+          <li>Receive email & device reminders</li>
+          <li>Save tasks and history</li>
+          <li>Unlock AI suggestions & calendar sync</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div>© <strong>COG</strong> — your accessible guru of discipline</div>
+      <div class="footer-links">
+        <a href="#howto">How-To</a>
+        <a href="#features">Features</a>
+        <a href="#pricing">Pricing</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
